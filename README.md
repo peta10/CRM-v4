@@ -129,21 +129,6 @@ A Kanban board for collaborative task management
 
 Responsive design for all devices
 
-Use this project as a starter to build comprehensive internal tools, dashboards, and data-driven apps directly in Cursor or any other environment.
-
-Tech Stack
-React (TypeScript)
-
-Ant Design (UI Library)
-
-GraphQL (API + code generation)
-
-Supabase (Authentication and DB services)
-
-Codegen (TypeScript types from GraphQL schemas)
-
-Vite (Dev/build tooling)
-
 Features
 Authentication: Secure login, signup, password recovery
 
@@ -162,36 +147,7 @@ Responsive UI: Consistent experience from desktop to mobile
 Getting Started (in Cursor or any environment)
 Clone the repository:
 
-bash
-Copy
-git clone https://github.com/your-username/Test-CRM-v2.git
-Install dependencies (e.g., in Cursor’s terminal):
 
-bash
-Copy
-npm install
-Configure Supabase:
-
-Provide your Supabase project URL and anon/public key in lib/supabaseClient.ts.
-
-Run database migrations (optional but recommended):
-
-bash
-Copy
-# Using supabase CLI or any tooling you set up
-supabase db push
-Start the dev server:
-
-bash
-Copy
-npm run dev
-Open http://localhost:5173 to view your real-time CRM dashboard.
-
-GraphQL & Codegen Setup
-Below is an example of how you might configure GraphQL and Codegen for this project:
-
-bash
-Copy
 npm i -D @graphql-codegen/cli \
           @graphql-codegen/typescript \
           @graphql-codegen/typescript-operations \
